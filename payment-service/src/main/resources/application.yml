@@ -13,5 +13,7 @@ spring:
       enabled: true
   jpa:
     database-platform: org.hibernate.dialect.H2Dialect
+  zipkin:
+    base-url: http://localhost:9411/
 logging:
   file: C:\Users\eduar\Desktop\microservice.log
